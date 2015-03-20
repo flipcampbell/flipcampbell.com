@@ -68,15 +68,23 @@ include('inc/header.php'); ?>
       </div>
       <div class="row">
         <div class="small-12 small-centered large-9 columns">
-          <p class="center white">Hi, I'm Philip Campbell, a front-end web developer based in Nashville, TN.</p>
+          <p class="center white">
+            Hi, I'm Philip Campbell, a front-end web developer based in Nashville, TN.
+          </p>
         </div>
       </div>
     </div>
     <div class="aqua statement container">
       <div class="row">
         <div class="small-12 small-centered columns">
-          <p class="center white"><span>I'm committed to executing pixel perfect renditions for designers.</span></p>
-          <p class="center white">I never compromise your design by taking shortcuts or doing what's easiest for me. The way you envision it is the way I will code it.</p>
+          <p class="center white">
+            <span>
+              I'm committed to executing pixel perfect renditions for designers.
+            </span>
+          </p>
+          <p class="center white">
+            I never compromise your design by taking shortcuts or doing what's easiest for me. The way you envision it is the way I will code it.
+          </p>
         </div>
       </div> <!--End Row  -->
     </div>
@@ -86,21 +94,32 @@ include('inc/header.php'); ?>
           <img src="img/boom-headshot.png" alt="BOOM headshot">
         </div>
         <div class="small-12 large-6 large-uncentered small-centered columns">
-          <h2>About Philip</h2>
-          <h3>Developer, drummer, cat lover.</h3>
-          <p>Born and bred in Nashville, Tennessee, I grew up playing drums and learning to build things. I'm a mechanical contractor and self-taught web developer who works in HTML, CSS, Javascript, jQuery, PHP, and Wordpress.</p>
+          <h2>
+            About Philip
+          </h2>
+          <h3>
+            Developer, drummer, cat lover.
+          </h3>
+          <p>
+            Born and bred in Nashville, Tennessee, I grew up playing drums and learning to build things. 
+            I'm a mechanical contractor and self-taught web developer who works in HTML, CSS, Javascript, jQuery, PHP, and Wordpress.
+          </p>
         </div>
       </div><!--End Row  -->
     </div>
     <div class="contact-me container">
       <div class="row">
         <div class="small-12 small-centered columns center">
-          <h2>Let's Make Things</h2>
+          <h2>
+            Let's Make Things
+          </h2>
         </div>
       </div>
       <div class="row">
         <div class="small-12 small-centered columns">
-          <h3 class="center">Interested in working with me?</h3>
+          <h3 class="center">
+            Interested in working with me?
+          </h3>
         </div>
       </div>
       
