@@ -75,8 +75,8 @@ include('inc/header.php'); ?>
     <div class="aqua statement container">
       <div class="row">
         <div class="small-12 small-centered columns">
-          <p class="center white"><span>I primarily work with designers and other developers.</span></p>
-          <p class="center white">I believe in mobile-first, responsive web design where content is paramount.</p>
+          <p class="center white"><span>I'm committed to executing pixel perfect renditions for designers.</span></p>
+          <p class="center white">I never compromise your design by taking shortcuts or doing what's easiest for me. The way you envision it is the way I will code it.</p>
         </div>
       </div> <!--End Row  -->
     </div>
