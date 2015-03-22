@@ -1,3 +1,7 @@
+body {
+	background-color: #454748;
+}
+
 /*---- Colors ----*/
 .charcoal {
 	background-color: #454748;
@@ -14,6 +18,10 @@
 
 .white {
 	color: #ffffff;
+}
+
+.bg-white {
+	background-color: white;
 }
 
 /*---------------------*/
@@ -163,6 +171,24 @@ body {
 .social-buttons img:hover {
 	opacity: .7;
 }
+
+/*-------Resume---------*/
+
+section.page {
+	overflow: hidden;
+	/*overflow-y: scroll;*/ 
+	margin: 50px auto;
+	height: 900px;
+	width: 700px;
+	padding: 20px;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color: #e2e4e6;
+	-moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
+	-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
+	}
+
 
 /*--------------------------*/
 
