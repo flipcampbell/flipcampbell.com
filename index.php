@@ -107,7 +107,7 @@ include('inc/header.php'); ?>
         </div>
       </div><!--End Row  -->
     </div>
-    <div class="contact-me container">
+    <div class="contact-me container bg-white">
       <div class="row">
         <div class="small-12 small-centered columns center">
           <h2>
@@ -153,6 +153,5 @@ include('inc/header.php'); ?>
           </div>
         </form>
       </div>
-        
     </div>
 <?php include('inc/footer.php') ?>
