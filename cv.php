@@ -1,14 +1,16 @@
 <?php include('inc/header.php'); ?>
 	
-	<section class="container page bg-white cv">
-		<div class="row">
-			<h1 class="small-12 columns">Philip Campbell</h1>
-		</div>
-		<div class="row">
-			<h3 class="small-12 columns">Front End Developer</h3>
-		</div>
+	<section class="container page bg-white cv large-6 medium-10 small-10 small-centered columns">
 
-		<div class="large-9 small-12 columns">
+			<div class="large-9 columns">
+				<div class="row"><h1>Philip Campbell</h1></div>
+				<div class="row"><h3>Front End Developer</h3></div>
+			</div>
+
+		
+		
+		<div class="large-8 small-12 columns">
+			
 			<div class="row">
 				<h4>Personal Profile</h4>
 			</div>
@@ -77,7 +79,7 @@
 				</ul>
 			</div>						
 		</div>
-		<div class="large-3 small-12 columns left-border">
+		<div class="large-4 small-12 columns left-border">
 			<div class="wrap">			
 				<div class="row">
 					<h4>Skills</h4>
