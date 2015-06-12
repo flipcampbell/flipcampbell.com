@@ -97,7 +97,7 @@ include('inc/header.php'); ?>
           <h2>
             About Philip
           </h2>
-          <h3>
+          <h3 class="emphasize">
             Developer, drummer, cat lover.
           </h3>
           <p>
@@ -117,7 +117,7 @@ include('inc/header.php'); ?>
       </div>
       <div class="row">
         <div class="small-12 small-centered columns">
-          <h3 class="center">
+          <h3 class="center emphasize">
             Interested in working with me?
           </h3>
         </div>

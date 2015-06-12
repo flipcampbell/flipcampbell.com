@@ -24,6 +24,10 @@ body {
 	background-color: white;
 }
 
+.text-aqua {
+	color: #44be9f;
+}
+
 /*---------------------*/
 
 header {
@@ -118,7 +122,7 @@ h2 {
 	color: #3ca995;
 }
 
-h3 {
+h3.emphasize {
 	font-family: 'Fira Sans', sans-serif;
 	font-style: italic;
 	color: #66bccc;
@@ -206,6 +210,29 @@ section.page {
 	.cv p,
 	.cv li {
 		font-size: 14px;
+	}
+
+	ul.aqua-bullets {
+	    list-style: none;
+	    padding:0;
+	    margin:0;
+	}
+
+	li.aqua-bullets { 
+	    padding-left: 1em; 
+	    text-indent: -.7em;
+	}
+
+	li.aqua-bullets:before {
+	    content: "• ";
+	    color: #44be9f;
+	    font-size: 18px;
+	    vertical-align: middle;
+	}
+
+	.aqua-bullets span {
+		position: relative;
+		left: 8px;
 	}
 
 

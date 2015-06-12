@@ -3,7 +3,7 @@
 	<section class="container page bg-white cv large-6 medium-10 small-10 small-centered columns">
 
 			<div class="large-9 columns">
-				<div class="row"><h1>Philip Campbell</h1></div>
+				<div class="row"><h1 class="text-aqua">Philip Campbell</h1></div>
 				<div class="row"><h3>Front End Developer</h3></div>
 			</div>
 
@@ -40,12 +40,12 @@
 				<h6>May 2014 – Present</h6>
 			</div>
 			<div class="row">
-				<ul>
-					<li>Work closely with designers and other developers to 
-						implement designs through standards-compliant code.</li>
-					<li>Develop HTML and CSS-based sites from Photoshop mockups.</li>
-					<li>Perform cross-browser testing and responsive development to
-						maximize accessibility.</li>
+				<ul class="aqua-bullets">
+					<li class="aqua-bullets"><span>Work closely with designers and other developers to 
+            implement designs through standards-compliant code.</span></li>
+					<li class="aqua-bullets"><span>Develop HTML and CSS-based sites from Photoshop mockups.</span></li>
+					<li class="aqua-bullets"><span>Perform cross-browser testing and responsive development to
+            maximize accessibility.</span></li>
 				</ul>
 			</div>
 			<div class="row">
@@ -55,11 +55,11 @@
 				<h6>October 2014 – Present</h6>
 			</div>
 			<div class="row">
-				<ul>
-					<li>Produced and curated content that focused on targeting 
-						new, ideal clients.</li>
-					<li>Hired and collaborated with a designer.</li>
-					<li>Developed the site code using HTML, CSS, jQuery, and PHP.</li>
+				<ul class="aqua-bullets">
+					<li class="aqua-bullets"><span>Produced and curated content that focused on targeting 
+						new, ideal clients.</span></li>
+					<li class="aqua-bullets"><span>Hired and collaborated with a designer.</span></li>
+					<li class="aqua-bullets"><span>Developed the site code using HTML, CSS, jQuery, and PHP.</span></li>
 				</ul>
 			</div>
 			<div class="row">
@@ -69,13 +69,13 @@
 				<h6>2001 – Present</h6>
 			</div>
 			<div class="row">
-				<ul>
-					<li>Responsible for IT administration and basic accounting.</li>
-					<li>Produce accurate estimates by meeting with potential clients 
-						and through careful examination of construction documents.</li>
-					<li>With over a decade of field experience, I have installed and 
-						maintained many different kinds of mechanical systems on 
-						dozens of projects.</li>
+				<ul class="aqua-bullets">
+					<li class="aqua-bullets"><span>Responsible for IT administration and basic accounting.</span></li>
+					<li class="aqua-bullets"><span>Produce accurate estimates by meeting with potential clients 
+						and through careful examination of construction documents.</span></li>
+					<li class="aqua-bullets"><span>With over a decade of field experience, I have installed and 
+            maintained many different kinds of mechanical systems on 
+            dozens of projects.</span></li>
 				</ul>
 			</div>						
 		</div>
