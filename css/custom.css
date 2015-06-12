@@ -20,6 +20,7 @@ body {
 	color: #ffffff;
 }
 
+<<<<<<< HEAD
 .bg-white {
 	background-color: white;
 }
@@ -160,7 +161,7 @@ body {
 }
 
 .social-buttons {
-	max-width: 90px;
+	max-width: 100px;
 }
 
 .social-buttons img {
@@ -176,6 +177,7 @@ body {
 	opacity: .7;
 }
 
+<<<<<<< HEAD
 /*-------Resume---------*/
 
 
@@ -238,7 +240,6 @@ section.page {
 
 /*--------------------------*/
 
-@media (min-width: )
 
 @media (min-width: 319px) and (max-width: 567px) {
 	.contact-me input, .contact-me textarea {

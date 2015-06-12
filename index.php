@@ -85,6 +85,8 @@ include('inc/header.php'); ?>
           <p class="center white">
             I never compromise your design by taking shortcuts or doing what's easiest for me. The way you envision it is the way I will code it.
           </p>
+          <p class="center white"><span>I primarily work with designers and other developers.</span></p>
+          <p class="center white">I believe in mobile-first, responsive web design where content is paramount.</p>
         </div>
       </div> <!--End Row  -->
     </div>
