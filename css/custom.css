@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*---- Colors ----*/
 .charcoal {
   background-color: #454748; }
@@ -99,7 +98,7 @@ li.aqua-bullets {
   text-indent: -.7em; }
 
 li.aqua-bullets:before {
-  content: "ΓÇó ";
+  content: "\2022 ";
   color: #44be9f;
   font-size: 18px;
   vertical-align: middle; }
