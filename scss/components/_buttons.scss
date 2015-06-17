@@ -1,0 +1,14 @@
+/*------- Buttons ------ */
+
+.submit-button input {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1.375em;
+	height: 50px;
+	min-width: 200px;
+	box-shadow: 0px 3px 0 #43a088;
+	border: none;
+}
+
+.submit-button input:hover {
+	background-color: #3dab8f;
+}

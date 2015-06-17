@@ -1,0 +1,40 @@
+/*------ Typography ------*/
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 2.250em;
+	color: #3ca995;
+}
+
+h3.emphasize {
+	font-family: 'Fira Sans', sans-serif;
+	font-style: italic;
+	color: #66bccc;
+}
+
+.hero p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 2.250em;
+}
+
+.statement p {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1.500em;
+}
+
+.statement span {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold; 
+}
+
+.about p {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1.375em;
+	line-height: 1.750em;
+}
+
+footer p {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1.000em;
+	margin-top: 15px;
+}
