@@ -1,0 +1,282 @@
+body {
+	background-color: #e2eceb;
+}
+
+/*---- Colors ----*/
+.charcoal {
+	background-color: #454748;
+}
+
+.aqua {
+	background-color: #44be9f;
+}
+
+.light-grey {
+	background-color: #e2eceb;
+
+}
+
+.white {
+	color: #ffffff;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+.text-aqua {
+	color: #44be9f;
+}
+
+/*---------------------*/
+
+header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.hero {
+	background: url(../img/pipes-pattern.svg) no-repeat center center;
+	background-size: cover;
+	background-color: #579ca7;
+}
+
+
+.rounded {
+	border-radius: 10px;
+}
+
+.center {
+	text-align: center;
+}
+
+
+.contact-me input, 
+			textarea, 
+			a {
+			margin-top: 15px;
+}
+
+.contact-box {
+	max-width: 500px;
+	padding: 20px;
+}
+
+
+.contact-me input, textarea {
+	border: 1px solid #b5c4c6;
+	border-radius: 5px
+}
+
+.statement p:first-of-type {
+	margin-top: 20px;
+}
+
+.contact-me input, textarea {
+	height: 35px;
+	min-width: 425px;
+}
+
+.contact-me textarea {
+	margin-bottom: 15px;
+	height: 300px;
+}
+
+.submit-button input {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1.375em;
+	height: 50px;
+	min-width: 200px;
+	box-shadow: 0px 3px 0 #43a088;
+	border: none;
+}
+
+.submit-button input:hover {
+	background-color: #3dab8f;
+}
+
+.contact-thanks {
+	padding-top: 300px;
+	padding-bottom: 400px;
+	margin-top: -4px;
+	margin-bottom: -15px;
+	height: 850px;
+}
+
+footer {
+	padding: 15px;
+	margin-top: 15px;
+}
+
+.container {
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+
+/*------ Text ------*/
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 2.250em;
+	color: #3ca995;
+}
+
+h3.emphasize {
+	font-family: 'Fira Sans', sans-serif;
+	font-style: italic;
+	color: #66bccc;
+}
+
+.hero p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 2.250em;
+}
+
+.statement p {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1.500em;
+}
+
+.statement span {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold; 
+}
+
+.about p {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1.375em;
+	line-height: 1.750em;
+}
+
+footer p {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1.000em;
+	margin-top: 15px;
+}
+
+body {
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+.social-buttons {
+	max-width: 90px;
+}
+
+.social-buttons img {
+	opacity: 1;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-webkit-transition: all .5s ease-in-out;
+	-ms-webkit-transition: all .5s ease-in-out;
+	-o-webkit-transition: all .5s ease-in-out;
+}
+
+.social-buttons img:hover {
+	opacity: .7;
+}
+
+/*-------Resume---------*/
+
+
+section.page {
+	overflow: hidden;
+	margin: 50px auto;
+	padding: 20px;
+	border-radius: 3px;
+	box-sizing: border-box;
+	-moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
+	-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
+	}
+
+/*	section.container {
+		width: 50%;
+	}*/
+
+	.wrap {
+		border-bottom: 1px solid #e2eceb;
+		padding-top: 20px;
+	}
+
+	.left-border {
+		border-left: 1px solid #e2eceb;
+	}
+
+	.wrap:last-of-type {
+		border-bottom: none;
+	}
+
+	.cv p,
+	.cv li {
+		font-size: 14px;
+	}
+
+	ul.aqua-bullets {
+	    list-style: none;
+	    padding:0;
+	    margin:0;
+	}
+
+	li.aqua-bullets { 
+	    padding-left: 1em; 
+	    text-indent: -.7em;
+	}
+
+	li.aqua-bullets:before {
+	    content: "• ";
+	    color: #44be9f;
+	    font-size: 18px;
+	    vertical-align: middle;
+	}
+
+	.aqua-bullets span {
+		position: relative;
+		left: 8px;
+	}
+
+
+/*--------------------------*/
+
+@media (min-width: 319px) and (max-width: 567px) {
+	.contact-me input, .contact-me textarea {
+		min-width: 200px; 
+	}
+
+	.contact-me textarea {
+		height: 200px;
+	}
+
+	h2 {
+		font-size: 1.75em;
+	}
+
+	h3 {
+		font-size: 1.25em;
+	}
+
+	.hero p {
+		font-size: 1.59em;
+	}
+
+	.statement p,  {
+		font-size: 1.25em;
+	}
+
+	.about h2, .about h3 {
+		text-align: center;
+	}
+	.about p {
+		font-size: 1em;
+	}
+
+	.contact-thanks {
+		height: 650px;
+		padding-top: 200px;
+		padding-bottom: 200px;
+	}
+
+/*		section.container {
+		width: 90%;
+	}*/
+}
