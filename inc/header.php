@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/foundation.css" />
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Fira+Sans:400,500,500italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./css/custom.css">
     <script src="./js/vendor/modernizr.js"></script>
   </head>
