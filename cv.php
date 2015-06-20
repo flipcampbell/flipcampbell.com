@@ -31,10 +31,10 @@
 					keeping up with the best development practices.</p>
 			</div>
 			<div class="row">
-				<h4>Work Experience</h4>
+				<h4 class="cv">Work Experience</h4>
 			</div>
 			<div class="row">
-				<h5>Front End Developer, Pixl Designs, LLC</h5>
+				<h5 class="cv">Front End Developer, Pixl Designs, LLC</h5>
 			</div>
 			<div class="row">
 				<h6>May 2014 – Present</h6>
@@ -49,7 +49,7 @@
 				</ul>
 			</div>
 			<div class="row">
-				<h5>Web Developer &amp; Administrator, Hawk Mechanical, Inc.</h5>
+				<h5 class="cv">Web Developer &amp; Administrator, Hawk Mechanical, Inc.</h5>
 			</div>
 			<div class="row">
 				<h6>October 2014 – Present</h6>
@@ -63,7 +63,7 @@
 				</ul>
 			</div>
 			<div class="row">
-				<h5>Technician, Estimator, &amp; Administration Hawk Mechanical, Inc.</h5>
+				<h5 class="cv">Technician, Estimator, &amp; Administration Hawk Mechanical, Inc.</h5>
 			</div>
 			<div class="row">
 				<h6>2001 – Present</h6>
@@ -82,21 +82,21 @@
 		<div class="large-4 small-12 columns left-border">
 			<div class="wrap">			
 				<div class="row">
-					<h4>Skills</h4>
+					<h4 class="cv">Skills</h4>
 				</div>
 				<div class="row">
-					<ul>
-						<li>HTML5/CSS3</li>
-						<li>Less &amp; Sass</li>
-						<li>CSS Frameworks (Bootstrap &amp; Foundation)</li>
-						<li>JavaScript &amp; jQuery</li>
-						<li>PHP</li>
+					<ul class="aqua-bullets">
+						<li class="aqua-bullets skills"><span>HTML5/CSS3</span></li>
+						<li class="aqua-bullets skills"><span>Less &amp; Sass</span></li>
+						<li class="aqua-bullets skills"><span>CSS Frameworks (Bootstrap &amp; Foundation)</span></li>
+						<li class="aqua-bullets skills"><span>JavaScript &amp; jQuery</span></li>
+						<li class="aqua-bullets skills"><span>PHP</span></li>
 					</ul>
 				</div>
 			</div>
 			<div class="wrap">			
 				<div class="row">
-					<h4>Education</h4>
+					<h4 class="cv">Education</h4>
 				</div>
 				<div class="row">
 					<p>Attended Middle Tennessee State University from 2003-2008 with a concentration in Biology.</p>
@@ -104,7 +104,7 @@
 			</div>
 			<div class="wrap">			
 				<div class="row">
-					<h4>Hobbies and Interests</h4>
+					<h4 class="cv">Hobbies and Interests</h4>
 				</div>
 				<div class="row">
 					<p>I am an animal lover to fault, a video game enthusiast, and a huge fan of music, science fiction 
@@ -113,7 +113,7 @@
 			</div>
 			<div class="wrap">			
 				<div class="row">
-					<h4>References</h4>
+					<h4 class="cv">References</h4>
 				</div>
 				<div class="row">
 					<p>Available upon request.</p>

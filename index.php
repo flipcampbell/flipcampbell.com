@@ -68,21 +68,21 @@ include('inc/header.php'); ?>
       </div>
       <div class="row">
         <div class="small-12 small-centered large-9 columns">
-          <p class="center white">
+          <p class="center text-white">
             Hi, I'm Philip Campbell, a front-end web developer based in Nashville, TN.
           </p>
         </div>
       </div>
     </div>
-    <div class="aqua statement container">
+    <div class="bg-aqua statement container">
       <div class="row">
         <div class="small-12 small-centered columns">
-          <p class="center white">
+          <p class="center text-white">
             <span>
               I'm committed to executing pixel perfect renditions for designers.
             </span>
           </p>
-          <p class="center white">
+          <p class="center text-white">
             I never compromise your design by taking shortcuts or doing what's easiest for me. The way you envision it is the way I will code it.
           </p>
         </div>
@@ -123,7 +123,7 @@ include('inc/header.php'); ?>
         </div>
       </div>
       
-      <div class="light-grey rounded small-10 small-centered large-6 large-centered columns contact-box">
+      <div class="bg-light-grey rounded small-10 small-centered large-6 large-centered columns contact-box">
         <form method="post" action="index.php">
           <div class="row">
             <div class="large-12 large-centered columns center">
@@ -148,7 +148,7 @@ include('inc/header.php'); ?>
           </div>
           <div class="row">
             <div class="small-12 small-centered columns center submit-button">
-              <input type="submit" class="small radius button aqua" value="Get in Touch">
+              <input type="submit" class="small radius button bg-aqua" value="Get in Touch">
             </div>
           </div>
         </form>

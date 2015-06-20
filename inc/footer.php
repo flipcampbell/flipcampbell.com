@@ -1,4 +1,4 @@
-<footer class="charcoal">
+<footer class="bg-charcoal">
       <div class="row">
         <div class="small-7 medium-4 large-3 large-centered small-centered medium-centered columns">
           <div class="small-6 medium-6 large-6 columns social-buttons">
@@ -11,7 +11,7 @@
       </div>
       <div class="row">
         <div class="small-12 small-centered columns">
-          <p class="center white">Copyright &copy; <?php echo date ('Y'); ?> Philip Campbell. All rights reserved.</p>
+          <p class="center text-white">Copyright &copy; <?php echo date ('Y'); ?> Philip Campbell. All rights reserved.</p>
         </div>
       </div>
     </footer>

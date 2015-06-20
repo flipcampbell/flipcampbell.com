@@ -1,5 +1,42 @@
 /*============== Variables ================*/
+
 $color-charcoal: #454748;
 $color-aqua: #44be9f;
 $color-light-grey: #e2eceb;
 $color-white: #ffffff;
+$color-blue-green: #66bccc;
+
+
+
+/*============== Classes ================*/
+
+	/*---- Colors ----*/
+
+	.bg-charcoal {
+		background-color: $color-charcoal;
+	}
+
+	.bg-aqua {
+		background-color: $color-aqua;
+	}
+
+	.bg-light-grey {
+		background-color: $color-light-grey;
+
+	}
+
+	.bg-white {
+		background-color: $color-white;
+	}
+
+	.text-white {
+		color: $color-white;
+	}
+
+	.text-aqua {
+		color: $color-aqua;
+	}
+
+	.text-blue-green {
+		color: $color-blue-green;
+	}

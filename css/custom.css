@@ -1,22 +1,26 @@
 /*============== Variables ================*/
+/*============== Classes ================*/
 /*---- Colors ----*/
-.charcoal {
+.bg-charcoal {
   background-color: #454748; }
 
-.aqua {
+.bg-aqua {
   background-color: #44be9f; }
 
-.light-grey {
+.bg-light-grey, body {
   background-color: #e2eceb; }
-
-.white {
-  color: #ffffff; }
 
 .bg-white {
   background-color: #ffffff; }
 
-.text-aqua {
+.text-white {
+  color: #ffffff; }
+
+.text-aqua, li.aqua-bullets:before {
   color: #44be9f; }
+
+.text-blue-green, h3.emphasize, h4.cv {
+  color: #66bccc; }
 
 /*---------------------*/
 .hero {
@@ -85,10 +89,6 @@ section.page {
 .wrap:last-of-type {
   border-bottom: none; }
 
-.cv p,
-.cv li {
-  font-size: 14px; }
-
 ul.aqua-bullets {
   list-style: none;
   padding: 0;
@@ -99,16 +99,21 @@ li.aqua-bullets {
   text-indent: -.7em; }
 
 li.aqua-bullets:before {
-  content: "\2022 ";
-  color: #44be9f;
-  font-size: 18px;
-  vertical-align: middle; }
+  content: "\2022 "; }
 
 .aqua-bullets span {
   position: relative;
-  left: 8px; }
+  left: 8px;
+  left: 8px;
+  left: 0.5rem; }
+
+li.skills:before {
+  content: "\2713"; }
 
 /*--------------------------*/
+@media (max-width: 1025px) {
+  .left-border {
+    border-left: none; } }
 @media (min-width: 319px) and (max-width: 567px) {
   .contact-me input, .contact-me textarea {
     min-width: 200px; }
@@ -144,10 +149,16 @@ li.aqua-bullets:before {
   	}*/ }
 /*-----------------Base Styles-------------*/
 body {
-  background-color: #e2eceb; }
-
-body {
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px; }
+
+.cv li {
+  margin-top: 8px;
+  margin-top: 0.5rem; }
+
+.cv p,
+.cv ul {
+  margin-bottom: 8px;
+  margin-bottom: 0.5rem; }
 
 /*--------- Container ------------*/
 .container {
@@ -173,20 +184,42 @@ h2 {
 
 h3.emphasize {
   font-family: 'Fira Sans', sans-serif;
-  font-style: italic;
-  color: #66bccc; }
+  font-style: italic; }
 
 .hero p,
-h1.cv {
+h1.cv,
+h4.cv {
   font-family: 'Roboto Slab', serif; }
 
+h3.cv,
+h5.cv,
+.cv p,
+.cv li,
+.cv h6 {
+  font-family: 'PT Sans', sans-serif; }
+
 h3.cv {
-  font-family: 'PT Sans', sans-serif;
   font-weight: 100;
   font-size: 20px;
   font-size: 1.25rem;
   margin-top: -15px;
-  margin-top: -0.9375rem; }
+  margin-top: -0.9375rem;
+  margin-bottom: 8px;
+  margin-bottom: 0.5rem; }
+
+h4.cv {
+  font-size: 20px;
+  font-size: 1.25rem; }
+
+.cv h4:nth-of-type(2) {
+  margin-top: 0px;
+  margin-top: 0rem;
+  color: red; }
+
+h5.cv {
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 600; }
 
 .hero p {
   font-size: 2.250em; }
@@ -208,6 +241,17 @@ footer p {
   font-family: 'Fira Sans', sans-serif;
   font-size: 1.000em;
   margin-top: 15px; }
+
+.cv p,
+.cv li,
+li.aqua-bullets:before,
+.cv h6 {
+  font-size: 14px;
+  font-size: 0.875rem; }
+
+.cv h6 {
+  margin-top: -4.8px;
+  margin-top: -0.3rem; }
 
 /*------- Buttons ------ */
 .submit-button input {

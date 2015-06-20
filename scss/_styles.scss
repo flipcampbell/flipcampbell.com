@@ -1,31 +1,5 @@
 
 
-/*---- Colors ----*/
-.charcoal {
-	background-color: $color-charcoal;
-}
-
-.aqua {
-	background-color: $color-aqua;
-}
-
-.light-grey {
-	background-color: $color-light-grey;
-
-}
-
-.white {
-	color: $color-white;
-}
-
-.bg-white {
-	background-color: $color-white;
-}
-
-.text-aqua {
-	color: $color-aqua;
-}
-
 /*---------------------*/
 
 
@@ -116,11 +90,6 @@ section.page {
 		border-bottom: none;
 	}
 
-	.cv p,
-	.cv li {
-		font-size: 14px;
-	}
-
 	ul.aqua-bullets {
 	    list-style: none;
 	    padding:0;
@@ -134,18 +103,27 @@ section.page {
 
 	li.aqua-bullets:before {
 	    content: "\2022 ";
-	    color: #44be9f;
-	    font-size: 18px;
-	    vertical-align: middle;
+	    @extend .text-aqua;
 	}
 
 	.aqua-bullets span {
 		position: relative;
 		left: 8px;
+		@include rem-fallback(left, 0.5);
+	}
+
+	li.skills:before {
+		content: "\2713";
 	}
 
 
 /*--------------------------*/
+
+@media (max-width: 1025px) {
+	.left-border {
+		border-left: none;
+	}
+}
 
 @media (min-width: 319px) and (max-width: 567px) {
 	.contact-me input, .contact-me textarea {
@@ -184,6 +162,7 @@ section.page {
 		padding-top: 200px;
 		padding-bottom: 200px;
 	}
+
 
 /*		section.container {
 		width: 90%;

@@ -9,19 +9,44 @@ h2 {
 h3.emphasize {
 	font-family: 'Fira Sans', sans-serif;
 	font-style: italic;
-	color: #66bccc;
+	@extend .text-blue-green
 }
 
 .hero p,
-h1.cv {
+h1.cv,
+h4.cv {
 	font-family: 'Roboto Slab', serif;	
 }
 
-h3.cv {
+h3.cv,
+h5.cv,
+.cv p,
+.cv li,
+.cv h6 {
 	font-family: 'PT Sans', sans-serif;
+}
+
+h3.cv{
 	font-weight: 100;
 	@include rem-fallback(font-size, 1.25);
 	@include rem-fallback(margin-top, -0.9375);
+	@include rem-fallback(margin-bottom, 0.5);
+}
+
+h4.cv {
+	@extend .text-blue-green;
+	@include rem-fallback(font-size, 1.25);
+	// @include rem-fallback(margin-top, 1);
+}
+
+.cv h4:nth-of-type(2) {
+	@include rem-fallback(margin-top, 0);
+	color: red;
+}
+
+h5.cv {
+	@include rem-fallback(font-size, 1);
+	font-weight: 600;
 }
 
 .hero p {
@@ -48,4 +73,16 @@ footer p {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 1.000em;
 	margin-top: 15px;
+}
+
+
+.cv p,
+.cv li,
+li.aqua-bullets:before,
+.cv h6 {
+	@include rem-fallback(font-size, 0.875);
+}
+
+.cv h6 {
+	@include rem-fallback(margin-top, -0.3);
 }

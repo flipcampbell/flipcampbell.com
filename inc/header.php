@@ -15,7 +15,7 @@
     <script src="./js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <header class="charcoal">
+    <header class="bg-charcoal">
       <div class="row">
         <div class="small-6 small-centered medium-5 medium-centered large-4 large-centered columns">
           <a href="http://www.flipcampbell.com"><img src="img/flipcampbell.svg" alt="Flip Campbell"></a>
