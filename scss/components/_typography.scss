@@ -80,7 +80,7 @@ footer p {
 .cv li,
 li.aqua-bullets:before,
 .cv h6 {
-	@include rem-fallback(font-size, 0.875);
+	@include rem-fallback(font-size, 1);
 }
 
 .cv h6 {
