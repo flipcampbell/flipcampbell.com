@@ -12,8 +12,19 @@ h3.emphasize {
 	color: #66bccc;
 }
 
+.hero p,
+h1.cv {
+	font-family: 'Roboto Slab', serif;	
+}
+
+h3.cv {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 100;
+	@include rem-fallback(font-size, 1.25);
+	@include rem-fallback(margin-top, -0.9375);
+}
+
 .hero p {
-	font-family: 'Roboto Slab', serif;
 	font-size: 2.250em;
 }
 

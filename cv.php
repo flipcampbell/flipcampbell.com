@@ -3,8 +3,8 @@
 	<section class="container page bg-white cv large-6 medium-10 small-10 small-centered columns">
 
 			<div class="large-9 columns">
-				<div class="row"><h1 class="text-aqua">Philip Campbell</h1></div>
-				<div class="row"><h3>Front End Developer</h3></div>
+				<div class="row"><h1 class="text-aqua cv">Philip Campbell</h1></div>
+				<div class="row"><h3 class="cv">Front End Developer</h3></div>
 			</div>
 
 		
@@ -12,7 +12,7 @@
 		<div class="large-8 small-12 columns">
 			
 			<div class="row">
-				<h4>Personal Profile</h4>
+				<h4 class="cv">Personal Profile</h4>
 			</div>
 			<div class="row">
 				<p>I am looking for a team to join where I can bring designs to

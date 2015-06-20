@@ -1,3 +1,4 @@
+/*============== Variables ================*/
 /*---- Colors ----*/
 .charcoal {
   background-color: #454748; }
@@ -12,7 +13,7 @@
   color: #ffffff; }
 
 .bg-white {
-  background-color: white; }
+  background-color: #ffffff; }
 
 .text-aqua {
   color: #44be9f; }
@@ -175,8 +176,19 @@ h3.emphasize {
   font-style: italic;
   color: #66bccc; }
 
+.hero p,
+h1.cv {
+  font-family: 'Roboto Slab', serif; }
+
+h3.cv {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  font-size: 1.25rem;
+  margin-top: -15px;
+  margin-top: -0.9375rem; }
+
 .hero p {
-  font-family: 'Roboto Slab', serif;
   font-size: 2.250em; }
 
 .statement p {
