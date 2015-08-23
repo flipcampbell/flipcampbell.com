@@ -160,7 +160,7 @@ include('inc/header.php'); ?>
           </div>
           <div class="row">
             <div class="large-12 large-centered columns center">
-              <input name="email" type="text" placeholder=" Email address">
+              <input name="email" type="email" placeholder=" Email address">
             </div>
           </div>
           <div class="row">
