@@ -1,12 +1,15 @@
 <footer class="bg-charcoal">
       <div class="row">
-        <div class="small-7 medium-4 large-3 large-centered small-centered medium-centered columns">
-          <div class="small-6 medium-6 large-6 columns social-buttons">
-            <a href="http://www.linkedin.com/pub/philip-campbell/9a/398/1a9/" target=_BLANK><img src="/img/socials-linkedin.svg" alt="LinkedIn"></a>
-          </div>
-          <div class="small-6 medium-6 large-6 social-buttons columns">
-            <a href="https://www.twitter.com/flipcampbell" target=_BLANK><img src="/img/socials-twitter.svg" alt="Twitter"></a>
-          </div>
+        <div class="social-buttons center">
+          <a href="http://www.linkedin.com/pub/philip-campbell/9a/398/1a9/" target=_BLANK>
+            <img src="/img/socials-linkedin.svg" alt="LinkedIn">
+          </a>
+          <a href="https://www.twitter.com/flipcampbell" target=_BLANK>
+            <img src="/img/socials-twitter.svg" alt="Twitter">
+          </a>
+          <a href="https://www.github.com/flipcampbell" target=_BLANK>
+            <img src="/img/socials-github.svg" alt="Github">
+          </a>
         </div>
       </div>
       <div class="row">

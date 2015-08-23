@@ -1,4 +1,4 @@
-<?php 
+<?php
 $pageTitle = "flipcampbell";
 $section = "home";
 
@@ -11,13 +11,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "You must include your name, email address, and project description.";
     exit;
   }
-  
+
   foreach( $_POST as $value ){
     if( stripos($value,'Content-Type:') !== FALSE ){
-        echo "There was a problem with the information you entered.";    
+        echo "There was a problem with the information you entered.";
         exit;
     }
-  } 
+  }
 
   if ($_POST["address"] != "") {
       echo "Your form submission has an error.";
@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   require_once('inc/phpmailer/class.phpmailer.php');
   $mail = new PHPMailer();
-  
+
   if (!$mail->ValidateAddress($email)){
     echo "You must have a valid email address.";
     exit;
@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (!$mail->send()) {
       echo "There was an error sending the email: " . $mail->ErrorInfo;
       exit;
-  } 
+  }
 
   header("Location: contact-thanks.php");
   exit;
@@ -69,7 +69,7 @@ include('inc/header.php'); ?>
       <div class="row">
         <div class="small-12 small-centered large-9 columns">
           <p class="center text-white">
-            Hi, I'm Philip Campbell, a front-end web developer based in Nashville, TN.
+            Bringing designs to life through front end web development.
           </p>
         </div>
       </div>
@@ -79,21 +79,34 @@ include('inc/header.php'); ?>
         <div class="small-12 small-centered columns">
           <p class="center text-white">
             <span>
-              I'm committed to executing pixel perfect renditions for designers.
+              Hi, I'm Philip Campbell, a front end web developer based in Nashville, TN.
             </span>
           </p>
           <p class="center text-white">
-            I never compromise your design by taking shortcuts or doing what's easiest for me. The way you envision it is the way I will code it.
+            I provide front end web development services to agencies and designers.
+            Hand me a PSD, and I'll give you a living, responsive web page.
           </p>
         </div>
       </div> <!--End Row  -->
     </div>
     <div class="about light-grey container">
       <div class="row">
-        <div class="small-6 large-6 large-uncentered small-centered columns">
+        <div class="small-12 large-5 large-uncentered small-centered columns center">
           <img src="img/boom-headshot.png" alt="BOOM headshot">
-        </div>
-        <div class="small-12 large-6 large-uncentered small-centered columns">
+            <div class="social-buttons">
+              <a href="http://www.linkedin.com/pub/philip-campbell/9a/398/1a9/" target=_BLANK>
+                <img src="/img/socials-linkedin.svg" alt="LinkedIn">
+              </a>
+              <a href="https://www.twitter.com/flipcampbell" target=_BLANK>
+                <img src="/img/socials-twitter.svg" alt="Twitter">
+              </a>
+              <a href="https://www.github.com/flipcampbell" target=_BLANK>
+                <img src="/img/socials-github.svg" alt="Github">
+              </a>
+            </div>
+          </div>
+
+        <div class="small-12 large-7 large-uncentered small-centered columns">
           <h2>
             About Philip
           </h2>
@@ -101,8 +114,23 @@ include('inc/header.php'); ?>
             Developer, drummer, cat lover.
           </h3>
           <p>
-            Born and bred in Nashville, Tennessee, I grew up playing drums and learning to build things. 
-            I'm a mechanical contractor and self-taught web developer who works in HTML, CSS, Javascript, jQuery, PHP, and Wordpress.
+            By day, I'm a mechanical contractor. By night, I'm a self-taught web
+            developer who collaborates individually or as part of a team with
+            designers and other developers to bring web pages and apps to life.
+            I specialize in hand-coded HTML, CSS, JavaScript, jQuery, and PHP.
+            I have extensively used CSS preprocessors (SCSS and LESS) and
+            frameworks like Foundation Zurb and Bootstrap.
+          </p>
+          <p>
+            In my free time, I'm teaching myself about AngularJS and WordPress development.
+          </p>
+          <p>
+            Born and bred in Nashville, Tennessee, I grew up playing drums and
+            learning to build things. I live in East Nashville with my girlfriend
+            (<a href="http://www.lambworks.com" target="_blank">A Web Designer</a>)
+            and our two cat babies. I'm an avid gardener of heirloom tomatoes and
+            insanely hot peppers. On some nights, you can find me in a venue
+            laying down sick grooves for my jazz/rock fusion band.
           </p>
         </div>
       </div><!--End Row  -->
@@ -122,7 +150,7 @@ include('inc/header.php'); ?>
           </h3>
         </div>
       </div>
-      
+
       <div class="bg-light-grey rounded small-10 small-centered large-6 large-centered columns contact-box">
         <form method="post" action="index.php">
           <div class="row">
@@ -140,7 +168,7 @@ include('inc/header.php'); ?>
               <input name="address" type="text" placeholder=" Address">
               <p>Humans: leave this field blank.</p>
             </div>
-          </div>          
+          </div>
           <div class="row">
             <div class="large-12 large-centered columns center">
               <textarea name="message" placeholder=" Describe your project"></textarea>
