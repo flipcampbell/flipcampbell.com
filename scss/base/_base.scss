@@ -1,0 +1,21 @@
+/*-----------------Base Styles-------------*/
+body {
+	@extend .bg-light-grey;
+}
+
+body {
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+.cv li {
+	@include rem-fallback(margin-top, 0.5);
+}
+
+// h5.cv {
+// 	@include rem-fallback(margin-top, 1);
+// }
+
+.cv p,
+.cv ul {
+	@include rem-fallback(margin-bottom, 0.5);
+}

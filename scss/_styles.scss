@@ -1,0 +1,170 @@
+
+
+/*---------------------*/
+
+
+.hero {
+	background: url(../img/pipes-pattern.svg) no-repeat center center;
+	background-size: cover;
+	background-color: #579ca7;
+}
+
+
+.rounded {
+	border-radius: 10px;
+}
+
+.center {
+	text-align: center;
+}
+
+
+.contact-me input, 
+			textarea, 
+			a {
+			margin-top: 15px;
+}
+
+.contact-box {
+	max-width: 500px;
+	padding: 20px;
+}
+
+
+.contact-me input, textarea {
+	border: 1px solid #b5c4c6;
+	border-radius: 5px
+}
+
+.statement p:first-of-type {
+	margin-top: 20px;
+}
+
+.contact-me input, textarea {
+	height: 35px;
+	min-width: 425px;
+}
+
+.contact-me textarea {
+	margin-bottom: 15px;
+	height: 300px;
+}
+
+.contact-thanks {
+	padding-top: 300px;
+	padding-bottom: 400px;
+	margin-top: -4px;
+	margin-bottom: -15px;
+	height: 850px;
+}
+
+
+/*-------Resume---------*/
+
+
+section.page {
+	overflow: hidden;
+	margin: 50px auto;
+	padding: 20px;
+	border-radius: 3px;
+	box-sizing: border-box;
+	-moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
+	-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
+	}
+
+/*	section.container {
+		width: 50%;
+	}*/
+
+	.wrap {
+		border-bottom: 1px solid #e2eceb;
+		padding-top: 20px;
+	}
+
+	.left-border {
+		border-left: 1px solid #e2eceb;
+	}
+
+	.wrap:last-of-type {
+		border-bottom: none;
+	}
+
+	ul.aqua-bullets {
+	    list-style: none;
+	    padding:0;
+	    margin:0;
+	}
+
+	li.aqua-bullets { 
+	    padding-left: 1em; 
+	    text-indent: -.7em;
+	}
+
+	li.aqua-bullets:before {
+	    content: "\2022 ";
+	    @extend .text-aqua;
+	}
+
+	.aqua-bullets span {
+		position: relative;
+		left: 8px;
+		@include rem-fallback(left, 0.5);
+	}
+
+	li.skills:before {
+		content: "\2713";
+	}
+
+
+/*--------------------------*/
+
+@media (max-width: 1025px) {
+	.left-border {
+		border-left: none;
+	}
+}
+
+@media (min-width: 319px) and (max-width: 567px) {
+	.contact-me input, .contact-me textarea {
+		min-width: 200px; 
+	}
+
+	.contact-me textarea {
+		height: 200px;
+	}
+
+	h2 {
+		font-size: 1.75em;
+	}
+
+	h3 {
+		font-size: 1.25em;
+	}
+
+	.hero p {
+		font-size: 1.59em;
+	}
+
+	.statement p,  {
+		font-size: 1.25em;
+	}
+
+	.about h2, .about h3 {
+		text-align: center;
+	}
+	.about p {
+		font-size: 1em;
+	}
+
+	.contact-thanks {
+		height: 650px;
+		padding-top: 200px;
+		padding-bottom: 200px;
+	}
+
+
+/*		section.container {
+		width: 90%;
+	}*/
+}

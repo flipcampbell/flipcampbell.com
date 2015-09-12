@@ -1,0 +1,21 @@
+/*------- Icons ------ */
+
+// .social-buttons {
+// 	max-width: 90px;
+// 	display: inline-block;
+// }
+
+.social-buttons img {
+	opacity: 1;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-webkit-transition: all .5s ease-in-out;
+	-ms-webkit-transition: all .5s ease-in-out;
+	-o-webkit-transition: all .5s ease-in-out;
+	max-width: 40px;
+	margin: 10px;
+}
+
+.social-buttons img:hover {
+	opacity: .7;
+}

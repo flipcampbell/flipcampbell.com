@@ -1,0 +1,80 @@
+// Use this mixin for background images
+
+@mixin bgimage-jpg($name) {
+  $url:"../images/#{$name}.jpg";
+  background: url($url);
+}
+
+@mixin bgimage-png($name) {
+  $url:"../images/#{$name}.png";
+  background: url($url);
+}
+
+// Transition Mixin
+
+// @mixin delayed-transition($method, $delay, $duration, $timing) {
+//   -webkit-transition-delay: #{$delay}s;
+//   -moz-transition-delay: #{$delay}s;
+//   -ms-transition-delay: #{$delay}s;
+//   -o-transition-delay: #{$delay}s;
+//   transition-delay: #{$delay}s;
+//   -webkit-transition: $method #{$duration}s $timing;
+//   -moz-transition: $method #{$duration}s $timing;
+//   -ms-transition: $method #{$duration}s $timing;
+//   -o-transition: $method #{$duration}s $timing;
+//   transition: $method #{$duration}s $timing;
+// } 
+
+
+// Use this mixin for importing fonts
+
+@mixin font-face($font-family, $file-path, $font-weight, $font-style) {
+  @font-face {
+    font-family: $font-family;
+      src: url('#{$file-path}.eot');
+      src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'),
+           url('#{$file-path}.woff') format('woff'),
+           url('#{$file-path}.woff2') format('woff2'),
+           url('#{$file-path}.ttf') format('truetype'),
+           url('#{$file-path}.svg##{$font-family}') format('svg');
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+      font-family: $font-family;
+        src: url('#{$file-path}.svg##{$font-family}') format('svg');
+    }
+  }
+}
+
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@mixin rem-fallback($property, $values...) {
+  $max: length($values);
+  $pxValues: '';
+  $remValues: '';
+
+  @for $i from 1 through $max {
+    $value: strip-unit(nth($values, $i));
+    $pxValues: #{$pxValues + $value*16}px;
+
+    @if $i < $max {
+      $pxValues: #{$pxValues + " "};
+    }
+  } 
+
+  @for $i from 1 through $max {
+    $value: strip-unit(nth($values, $i));
+    $remValues: #{$remValues + $value}rem;
+
+    @if $i < $max {
+      $remValues: #{$remValues + " "};
+    }
+  } 
+  
+  #{$property}: $pxValues; 
+  #{$property}: $remValues; 
+}
