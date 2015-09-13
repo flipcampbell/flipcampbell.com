@@ -1,18 +1,78 @@
 /*---------Header------------*/
 
-header {
-	padding-top: 20px;
-	padding-bottom: 10px;
+// header {
+// 	padding-top: 20px;
+// 	padding-bottom: 10px;
+// }
+//
+// nav li {
+// 	display: inline;
+// }
+//
+// nav a {
+// 	padding: 50px;
+// }
+//
+// nav a img {
+// 	max-width: 200px;
+// }
+
+// header {
+// 	// @include rem-fallback(padding-top, 2);
+// 	// @include rem-fallback(padding-bottom, 2);
+// 	-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
+// 	box-shadow: 0 0 5px 0 rgba(0,0,0,0.4)
+// }
+
+.header-section {
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
+  position: fixed;
+  z-index: 999;
+  min-width: 100%;
 }
 
-nav li {
-	display: inline;
+.contain-to-grid {
+  background-color: rgba(255, 255, 255, 0.97);
 }
 
-nav a {
-	padding: 50px;
+.header-fill {
+  // background: #fff;
+  height: 135px;
+  .tablet-mobile-logo img {
+      padding-top: 30px;
+	}
 }
 
-nav a img {
-	max-width: 200px;
+.top-bar,
+.top-bar-section ul li,
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: none;
+}
+
+.top-bar ul li a {
+	background: transparent !important;
+}
+.top-bar .title-area {
+	@include rem-fallback(padding-left, 2.5);
+}
+
+.top-bar.expanded .title-area {
+	background: none;
+}
+
+.top-bar {
+	padding: 45px 0.9375rem 90px 0.9375rem;
+	transition: all 0.3s ease 0.1s;
+	// LOGO ADJUSTMENT
+	ul.title-area img {
+			@include rem-fallback(margin-top, -1.5625);
+	}
+}
+
+.padding-on-my-header {
+  padding: 17px 0.9375rem 62px 0.9375rem;
+  ul.title-area img {
+      @include rem-fallback(margin-top, -0.3125);
+  }
 }

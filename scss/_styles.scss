@@ -19,10 +19,10 @@
 }
 
 
-.contact-me input, 
-			textarea, 
-			a {
-			margin-top: 15px;
+.contact-me input,
+textarea,
+.contact-me a {
+	margin-top: 15px;
 }
 
 .contact-box {
@@ -96,8 +96,8 @@ section.page {
 	    margin:0;
 	}
 
-	li.aqua-bullets { 
-	    padding-left: 1em; 
+	li.aqua-bullets {
+	    padding-left: 1em;
 	    text-indent: -.7em;
 	}
 
@@ -127,7 +127,7 @@ section.page {
 
 @media (min-width: 319px) and (max-width: 567px) {
 	.contact-me input, .contact-me textarea {
-		min-width: 200px; 
+		min-width: 200px;
 	}
 
 	.contact-me textarea {
