@@ -6,6 +6,6 @@ jQuery(window).scroll(function() {
   }
   if (scroll < 50) {
       $("nav").removeClass("padding-on-my-header");
-
+      $('#logo-image').removeClass('logo-image-small', 'logo-margin-small').addClass('logo-image-big', 'logo-margin');
   }
 });

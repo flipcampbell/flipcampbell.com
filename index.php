@@ -88,6 +88,7 @@ include('inc/header.php'); ?>
           </p>
         </div>
       </div> <!--End Row  -->
+      <div id="about"></div>
     </div>
     <div class="about light-grey container">
       <div class="row">
@@ -134,6 +135,7 @@ include('inc/header.php'); ?>
           </p>
         </div>
       </div><!--End Row  -->
+      <div id="contact"></div>
     </div>
     <div class="contact-me container bg-white">
       <div class="row">

@@ -27,16 +27,16 @@
           <section class="top-bar-section">
             <ul class="right">
               <li>
-                <a href="" class="text-white">Work</a>
+                <a href="/work/" class="text-white">Work</a>
               </li>
               <li>
-                <a href="" class="text-white">About</a>
+                <a href="/#about" class="text-white">About</a>
               </li>
               <li>
                 <a href="/resume/" class="text-white">Resume</a>
               </li>
               <li>
-                <a href="" class="text-white">Contact</a>
+                <a href="/#contact" class="text-white">Contact</a>
               </li>
             </ul>
           </section>
