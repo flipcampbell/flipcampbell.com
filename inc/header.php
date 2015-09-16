@@ -18,8 +18,8 @@
         <nav class="top-bar important-class" data-topbar role="navigation">
           <ul class="title-area">
             <li class="name">
-              <a href="/index.php">
-                <img src="/img/flip-campbell-logo.png" alt="" id="logo-image">
+              <a href="/">
+                <div id="logo-image" class="logo-image-big logo-margin"></div>
               </a>
             </li>
             <li class="toggle-topbar"><a href="#"><span>Menu</span></a></li>

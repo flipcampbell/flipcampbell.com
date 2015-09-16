@@ -65,14 +65,66 @@
 	padding: 45px 0.9375rem 90px 0.9375rem;
 	transition: all 0.3s ease 0.1s;
 	// LOGO ADJUSTMENT
-	ul.title-area img {
-			@include rem-fallback(margin-top, -1.5625);
-	}
+	// ul.title-area div,
 }
+
+// .logo-margin {
+//     @include rem-fallback(margin-top, -1.5625);
+// }
+//
+// .logo-margin-small {
+//   @include rem-fallback(margin-top, 0);
+// }
 
 .padding-on-my-header {
   padding: 17px 0.9375rem 62px 0.9375rem;
   ul.title-area img {
       @include rem-fallback(margin-top, -0.3125);
   }
+}
+
+// #logo-image {
+//
+// }
+
+.logo-image-big {
+  content: "";
+  background: url("/img/flip-campbell-logo.png");
+  width: 111px;
+  height: 92px;
+  @include rem-fallback(margin-top, -1.5625);
+}
+
+.logo-image-small {
+  content: "";
+  background: url("/img/flip-campbell-logo-small.png");
+  width: 56px;
+  height: 46px;
+  @include rem-fallback(margin-top, 0);
+}
+
+@media only screen and (max-width: 640px) {
+	.top-bar,
+	.top-bar .title-area {
+		margin-top: 0;
+		padding: 0;
+		float: none;
+		ul.title-area div {
+			margin: -1px 4px 5px;
+		}
+	}
+	.top-bar .padding-on-my-header ul.title-area img {
+    margin: 5px 13px 0;
+    width: 35px;
+  }
+	.header-fill {
+		height: 35px;
+	}
+  #logo-image {
+    content: "";
+    background: url("/img/flip-campbell-logo-small.png");
+    width: 56px;
+    height: 46px;
+  }
+
 }
