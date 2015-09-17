@@ -5,12 +5,13 @@ $color-aqua: #44be9f;
 $color-light-grey: #e2eceb;
 $color-white: #ffffff;
 $color-blue-green: #66bccc;
+$color-dark-blue: #476d79;
 
 
 
 /*============== Classes ================*/
 
-	/*---- Colors ----*/
+	/*---- Color Classes ----*/
 
 	.bg-charcoal {
 		background-color: $color-charcoal;
@@ -40,4 +41,45 @@ $color-blue-green: #66bccc;
 
 	.text-blue-green {
 		color: $color-blue-green;
+	}
+
+	.text-charcoal {
+		color: $color-charcoal;
+	}
+
+	.text-dark-blue {
+		color: $color-dark-blue;
+	}
+
+
+	/*---- Layout Classes ----*/
+
+	.padding-top-1 {
+		@include rem-fallback(padding-top, 1);
+	}
+
+	.padding-bottom-1 {
+		@include rem-fallback(padding-bottom, 1);
+	}
+
+	.padding-top-2 {
+		@include rem-fallback(padding-top, 2);
+	}
+
+	.padding-top-5 {
+		@include rem-fallback(padding-top, 5);
+	}
+
+	.padding-bottom-4 {
+		@include rem-fallback(padding-bottom, 4);
+	}
+
+	.padding-bottom-5 {
+		@include rem-fallback(padding-bottom, 5);
+	}
+
+	/*---- Typography Classes ----*/
+
+	.uppercase {
+		text-transform: uppercase;
 	}
