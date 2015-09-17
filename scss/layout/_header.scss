@@ -65,10 +65,11 @@
   @include rem-fallback(margin-top, 0);
 }
 
-.top-bar.expanded .toggle-topbar a {
-  color: $color-white;
-  opacity: 0.5;
-}
+// Uncomment below if you use 'MENU' rather than hamburger icon
+// .top-bar.expanded .toggle-topbar a {
+//   color: $color-white;
+//   opacity: 0.5;
+// }
 
 @media only screen and (max-width: 640px) {
 	.top-bar,
