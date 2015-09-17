@@ -28,6 +28,17 @@ h5.cv,
 	font-family: 'PT Sans', sans-serif;
 }
 
+.top-bar-section ul li > a {
+	@include rem-fallback(letter-spacing, .15);
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	@include rem-fallback(padding-right, 1);
+}
+
 h3.cv{
 	font-weight: 100;
 	@include rem-fallback(font-size, 1.25);
@@ -38,7 +49,6 @@ h3.cv{
 h4.cv {
 	@extend .text-blue-green;
 	@include rem-fallback(font-size, 1.25);
-	// @include rem-fallback(margin-top, 1);
 }
 
 .cv h4:nth-of-type(2) {
@@ -48,7 +58,10 @@ h4.cv {
 
 h5.cv {
 	@include rem-fallback(font-size, 1);
-	;
+}
+
+.top-bar-section ul li > a {
+	@include rem-fallback(font-size, 1.125);
 }
 
 .gallery h4,
@@ -63,8 +76,8 @@ h5.cv {
 .gallery h5,
 .statement p,
 .about p,
-footer p
- {
+footer p,
+.top-bar-section ul li > a {
 	font-family: 'Fira Sans', sans-serif;
 }
 

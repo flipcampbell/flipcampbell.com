@@ -15,10 +15,10 @@
   <body>
     <div class="header-section contain-to-grid">
       <header class="bg-aqua">
-        <nav class="top-bar important-class" data-topbar role="navigation">
+        <nav class="top-bar important-class" id="nav" data-topbar role="navigation">
           <ul class="title-area">
             <li class="name">
-              <a href="/">
+              <a href="/" id="home">
                 <div id="logo-image" class="logo-image-big logo-margin"></div>
               </a>
             </li>
@@ -27,16 +27,16 @@
           <section class="top-bar-section">
             <ul class="right">
               <li>
-                <a href="/work/" class="text-white">Work</a>
+                <a href="/work/" class="text-white uppercase link-decoration">Work</a>
               </li>
               <li>
-                <a href="/#about" class="text-white">About</a>
+                <a href="/#about" class="text-white uppercase link-decoration">About</a>
               </li>
               <li>
-                <a href="/resume/" class="text-white">Resume</a>
+                <a href="/resume/" class="text-white uppercase link-decoration">Resume</a>
               </li>
               <li>
-                <a href="/#contact" class="text-white">Contact</a>
+                <a href="/#contact" class="text-white uppercase link-decoration">Contact</a>
               </li>
             </ul>
           </section>
