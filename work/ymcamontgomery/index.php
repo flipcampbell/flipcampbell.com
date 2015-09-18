@@ -9,7 +9,7 @@
           HTML5, LESS, WordPress
         </h4>
         <p class="large-9 small-12 small-centered columns center padding-top-1 text-dark-blue">
-          The Montgomery, AL association of the YMCA contracted Pixl Designs to
+          The Montgomery, AL association of the YMCA contracted <a href="http://www/pixldesigns.com" target="_blank" class="text-blue-green">Pixl Designs</a> to
           do a responsive redesign of their sites. Other developers at Pixl were
           responsible for building a custom child theme in WordPress on the
           Genesis Framework. My role was to implement page designs in HTML and
