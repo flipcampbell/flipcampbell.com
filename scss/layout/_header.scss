@@ -95,3 +95,12 @@
     height: 46px;
   }
 }
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  content: "";
+  background: url("/img/flip-campbell-logo-small@2x.png");
+  width: 56px;
+  height: 46px;
+}
