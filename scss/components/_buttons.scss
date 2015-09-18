@@ -2,9 +2,13 @@
 
 .submit-button input {
 	font-family: 'Fira Sans', sans-serif;
-	font-size: 1.375em;
 	height: 50px;
 	min-width: 200px;
+}
+
+.submit-button input,
+.button-xl span {
+	font-size: 1.375rem !important;
 }
 
 .submit-button input:hover {
@@ -22,6 +26,7 @@
 
 .button-xl {
 	@include rem-fallback(padding, 1.125, 4.25, 1.1875, 4.25);
+	@include rem-fallback(margin-top, -0.625);
 	@media screen and (max-width: 1024px) {
 		@include rem-fallback(margin-top, 2);
 	}

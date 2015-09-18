@@ -54,7 +54,9 @@
           Need help bringing your designs to life?
         </h3>
         <div class="large-4 large-uncentered small-12 small-centered columns center">
-          <a href="/#contact" class="radius button bg-aqua button-xl">Let's Talk</a>
+          <a href="/#contact" class="radius button bg-aqua button-xl">
+            <span>Let's Talk</span>
+          </a>
         </div>
       </div>
     </div>

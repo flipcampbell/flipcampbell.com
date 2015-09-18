@@ -6,6 +6,7 @@ h2 {
 	color: #3ca995;
 }
 
+
 h3.emphasize {
 	font-family: 'Fira Sans', sans-serif;
 	font-style: italic;
@@ -14,6 +15,7 @@ h3.emphasize {
 
 .hero p,
 h1.cv,
+.work h3,
 h4.cv {
 	font-family: 'Roboto Slab', serif;
 }
@@ -24,7 +26,8 @@ h5.cv,
 .cv li,
 .cv h6,
 .gallery h4,
-.button-xl {
+.button-xl,
+.work h4 {
 	font-family: 'PT Sans', sans-serif;
 }
 
@@ -65,7 +68,8 @@ h5.cv {
 }
 
 .gallery h4,
-h5.cv {
+h5.cv,
+.credit {
 	font-weight: 600
 }
 
@@ -77,7 +81,8 @@ h5.cv {
 .statement p,
 .about p,
 footer p,
-.top-bar-section ul li > a {
+.top-bar-section ul li > a,
+.work p {
 	font-family: 'Fira Sans', sans-serif;
 }
 
@@ -99,8 +104,6 @@ footer p,
 .about p {
 	@include rem-fallback(font-size, 1.375);
 }
-
-
 
 .gallery h5 {
 	@include rem-fallback(font-size, 1.15);
