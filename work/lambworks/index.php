@@ -3,10 +3,10 @@
     <div class="bg-light-grey">
       <div class="row padding-top-5 padding-bottom-5">
         <h3 class="small-12 small-centered columns center text-dark-blue">
-          MyAgriscapePro Mobile App
+          Lambworks
         </h3>
         <h4 class="small-12 small-centered columns center padding-top-1 text-dark-blue italicized">
-          HTML5, SCSS, AngularJS, Ionic Framework
+          HTML5, SCSS, jQuery, PHP
         </h4>
         <p class="large-9 small-12 small-centered columns center padding-top-1 text-dark-blue">
            Lambworks is the portfolio site for product designer Holly Stewart.

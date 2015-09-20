@@ -17,7 +17,7 @@
           <span class="text-blue-green">Twitter Bootstrap</span> responsive framework.
         </p>
         <div class="small-12 small-centered columns center padding-top-2">
-          <a href="http://www.hawhvac.com" target="_blank" class="radius button bg-aqua button-xl">
+          <a href="http://www.hawkhvac.com" target="_blank" class="radius button bg-aqua button-xl">
             <span>View Live Site</span>
           </a>
         </div>
