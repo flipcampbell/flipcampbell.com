@@ -32,7 +32,7 @@
   <div class="testimonial work bg-white padding-bottom-5">
     <div class="row">
       <h3 class="center text-dark-blue">Testimonial</h3>
-      <p class="large-8 small-12 small-centered columns padding-top-1 text-dark-blue padding-top-1">
+      <p class="large-8 small-12 small-centered columns text-dark-blue padding-top-1">
         I’ve had developers butcher designs in the past. Philip goes above and
         beyond to match the design as close as possible. If something won’t translate
         well into code, he'll find the best workaround. I’m actually able to rely
