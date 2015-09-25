@@ -11,14 +11,14 @@
           <a href="agriscaping/">
             <img src="/img/thumbnail-agriscaping.png" alt="">
             <h4 class="text-blue-green uppercase padding-top-1">MyAgriscapePro Mobile App</h4>
-            <h5 class="text-charcoal">HTML5, SCSS, AngularJS, Ionic Framework</h5>
+            <h5 class="text-dark-blue">HTML5, SCSS, AngularJS, Ionic Framework</h5>
           </a>
         </div>
         <div class="large-6 large-uncentered small-12 small-centered columns padding-top-5">
           <a href="lambworks/">
             <img src="/img/thumbnail-lambworks.png" alt="">
             <h4 class="text-blue-green uppercase padding-top-1">Lambworks.com</h4>
-            <h5 class="text-charcoal">HTML5, SCSS, jQuery, PHP</h5>
+            <h5 class="text-dark-blue">HTML5, SCSS, jQuery, PHP</h5>
           </a>
         </div>
       </div>
@@ -27,14 +27,14 @@
           <a href="hawkhvac/">
             <img src="/img/thumbnail-hawkhvac.png" alt="">
             <h4 class="text-blue-green uppercase padding-top-1">Hawkhvac.com</h4>
-            <h5 class="text-charcoal">HTML5, SCSS, jQuery, PHP</h5>
+            <h5 class="text-dark-blue">HTML5, SCSS, jQuery, PHP</h5>
           </a>
         </div>
         <div class="large-6 large-uncentered small-12 small-centered columns padding-top-5">
           <a href="ymcamontgomery/">
             <img src="/img/thumbnail-ymca.png" alt="">
             <h4 class="text-blue-green uppercase padding-top-1">Ymcamontgomery.org</h4>
-            <h5 class="text-charcoal">HTML5, CSS, WordPress (Genesis Framework)</h5>
+            <h5 class="text-dark-blue">HTML5, CSS, WordPress (Genesis Framework)</h5>
           </a>
         </div>
       </div>
@@ -43,7 +43,7 @@
           <a href="d2s/">
             <img src="/img/thumbnail-d2s.png" alt="">
             <h4 class="text-blue-green uppercase padding-top-1">2014 D2S Fearless Landing Page</h4>
-            <h5 class="text-charcoal">HTML5, CSS, WordPress (Genesis Framework)</h5>
+            <h5 class="text-dark-blue">HTML5, CSS, WordPress (Genesis Framework)</h5>
           </a>
         </div>
       </div>
