@@ -9,7 +9,7 @@
           HTML5, LESS, WordPress
         </h4>
         <p class="large-9 small-12 small-centered columns center padding-top-1 text-dark-blue">
-          The Montgomery, AL association of the YMCA contracted <a href="http://www.pixldesigns.com" target="_blank" class="text-blue-green">Pixl Designs</a> to
+          The Montgomery, AL association of the YMCA contracted <a href="http://www.pixldesigns.com" target="_blank" class="text-blue-green">PIXL Designs</a> to
           do a responsive redesign of their sites. Other developers at Pixl were
           responsible for building a custom child theme in WordPress on the
           Genesis Framework. My role was to implement page designs in HTML and
@@ -50,7 +50,9 @@
         quick learner and can easily adjust to new requirements in order to
         create a successful product.
       </p>
-      <p class="text-dark-blue large-8 small-12 small-centered columns credit">Joshua Brown</p>
+      <p class="text-dark-blue large-8 small-12 small-centered columns credit">
+        Joshua Brown - PIXL Designs
+      </p>
     </div>
   </div>
   <div class="bg-light-grey padding-top-5 padding-bottom-4 gallery">

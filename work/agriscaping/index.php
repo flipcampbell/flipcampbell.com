@@ -12,7 +12,7 @@
           <a href="http://www.agriscaping.com" target="_blank" class="text-blue-green">MyAgriscapePro</a>
           is a mobile app to help people convert their yards into productive
           gardening spaces and connect users to professional gardeners. I
-          collaborated with <a href="http://www.pixldesigns.com" target="_blank" class="text-blue-green">Pixl Designs</a>
+          collaborated with <a href="http://www.pixldesigns.com" target="_blank" class="text-blue-green">PIXL Designs</a>
           to code many of the template views using HTML, SCSS, and AngularJS
           in the Ionic framework.
         </p>
@@ -43,7 +43,9 @@
         quick learner and can easily adjust to new requirements in order to
         create a successful product.
       </p>
-      <p class="text-dark-blue large-8 small-12 small-centered columns credit">Joshua Brown</p>
+      <p class="text-dark-blue large-8 small-12 small-centered columns credit">
+        Joshua Brown - PIXL Designs
+      </p>
     </div>
   </div>
   <div class="bg-light-grey padding-top-5 padding-bottom-4 gallery">

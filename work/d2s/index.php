@@ -9,7 +9,7 @@
           HTML5, CSS3, WordPress (Genesis Framework)
         </h4>
         <p class="large-9 small-12 small-centered columns center padding-top-1 text-dark-blue">
-          Working as a contractor for <a href="http://www.pixldesigns.com" target="_blank" class="text-blue-green">Pixl Designs</a>,
+          Working as a contractor for <a href="http://www.pixldesigns.com" target="_blank" class="text-blue-green">PIXL Designs</a>,
           I was responsible for marking up the landing page in HTML, styling it
           with CSS, and uploading assets into WordPress. This landing page has
           been replaced with a new campaign.
@@ -41,7 +41,9 @@
         quick learner and can easily adjust to new requirements in order to
         create a successful product.
       </p>
-      <p class="text-dark-blue large-8 small-12 small-centered columns credit">Joshua Brown</p>
+      <p class="text-dark-blue large-8 small-12 small-centered columns credit">
+        Joshua Brown - PIXL Designs
+      </p>
     </div>
   </div>
   <div class="bg-light-grey padding-top-5 padding-bottom-4 gallery">
