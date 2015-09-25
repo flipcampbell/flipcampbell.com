@@ -114,7 +114,7 @@ include('inc/header.php'); ?>
           <h3 class="emphasize">
             Developer, drummer, cat lover.
           </h3>
-          <p>
+          <p class="text-dark-blue">
             By day, I'm a mechanical contractor. By night, I'm a self-taught web
             developer who collaborates individually or as part of a team with
             designers and other developers to bring web pages and apps to life.
@@ -122,10 +122,10 @@ include('inc/header.php'); ?>
             I have extensively used CSS preprocessors (SCSS and LESS) and
             frameworks like Foundation Zurb and Bootstrap.
           </p>
-          <p>
+          <p class="text-dark-blue">
             In my free time, I'm teaching myself about AngularJS and WordPress development.
           </p>
-          <p>
+          <p class="text-dark-blue">
             Born and bred in Nashville, Tennessee, I grew up playing drums and
             learning to build things. I live in East Nashville with my girlfriend
             (<a href="http://www.lambworks.com" target="_blank">A Web Designer</a>)
