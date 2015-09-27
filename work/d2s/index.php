@@ -8,15 +8,15 @@
         <h4 class="small-12 small-centered columns center padding-top-1 text-dark-blue italicized">
           HTML5, CSS3, WordPress (Genesis Framework)
         </h4>
-        <div class="center padding-top-1 padding-bottom-1">
-          <img src="/img/work/d2s/work-d2s.jpg" alt="">
-        </div>
         <p class="large-9 small-12 small-centered columns text-dark-blue padding-top-1">
           Working as a contractor for <a href="http://www.pixldesigns.com" target="_blank" class="text-blue-green">PIXL Designs</a>,
           I was responsible for marking up the landing page in HTML, styling it
           with CSS, and uploading assets into WordPress. This landing page has
           been replaced with a new campaign.
         </p>
+        <div class="center padding-top-1 padding-bottom-1">
+          <img src="/img/work/d2s/work-d2s.jpg" alt="">
+        </div>
       </div>
     </div>
   </div>
