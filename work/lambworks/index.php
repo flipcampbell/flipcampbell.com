@@ -1,6 +1,6 @@
 <?php include('../../inc/header.php'); ?>
   <div class="work">
-    <div class="bg-light-grey">
+    <div class="bg-white">
       <div class="row padding-top-5 padding-bottom-5">
         <h3 class="small-12 small-centered columns center text-dark-blue">
           Lambworks
@@ -8,21 +8,19 @@
         <h4 class="small-12 small-centered columns center padding-top-1 text-dark-blue italicized">
           HTML5, SCSS, jQuery, PHP
         </h4>
-        <p class="large-9 small-12 small-centered columns center padding-top-1 text-dark-blue">
-           Lambworks is the portfolio site for product designer Holly Stewart.
-           I developed her site using <span class="text-blue-green">Foundation Zurb</span>
-           as a responsive framework.
+        <div class="row center padding-top-1 padding-bottom-1">
+          <img src="/img/work/lambworks/work-lambworks.png" alt="">
+        </div>
+        <p class="large-9 small-12 small-centered columns text-dark-blue padding-top-1">
+          Lambworks is the portfolio site for product designer Holly Stewart.
+          I developed her site using <span class="text-blue-green">Foundation Zurb</span>
+          as a responsive framework.
         </p>
         <div class="small-12 small-centered columns center padding-top-2">
           <a href="http://www.lambworks.com" target="_blank" class="radius button bg-aqua button-xl">
             <span>View Live Site</span>
           </a>
         </div>
-      </div>
-    </div>
-    <div class="bg-white">
-      <div class="row center padding-top-5 padding-bottom-5">
-        <img src="/img/work/lambworks/work-lambworks.png" alt="">
       </div>
     </div>
   </div>
@@ -32,7 +30,7 @@
   <div class="testimonial work bg-white padding-bottom-5">
     <div class="row">
       <h3 class="center text-dark-blue">Testimonial</h3>
-      <p class="large-8 small-12 small-centered columns text-dark-blue padding-top-1">
+      <p class="large-9 small-12 small-centered columns text-dark-blue padding-top-1">
         I’ve had developers butcher designs in the past. Philip goes above and
         beyond to match the design as close as possible. If something won’t translate
         well into code, he'll find the best workaround. I’m actually able to rely
@@ -41,7 +39,9 @@
         and direction. Whenever possible, I try to subcontract Philip or encourage
         my clients use him for their front end development.
       </p>
-      <p class="text-dark-blue large-8 small-12 small-centered columns credit">Holly Stewart</p>
+      <p class="text-dark-blue large-9 small-12 small-centered columns credit">
+        Holly Stewart - Lambworks
+      </p>
     </div>
   </div>
   <div class="bg-light-grey padding-top-5 padding-bottom-4 gallery">

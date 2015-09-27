@@ -1,6 +1,6 @@
 <?php include('../../inc/header.php'); ?>
   <div class="work">
-    <div class="bg-light-grey">
+    <div class="bg-white">
       <div class="row padding-top-5 padding-bottom-5">
         <h3 class="small-12 small-centered columns center text-dark-blue">
           Hawk HVAC
@@ -8,7 +8,10 @@
         <h4 class="small-12 small-centered columns center padding-top-1 text-dark-blue italicized">
           HTML5, SCSS (Twitter Bootstrap), jQuery, and PHP
         </h4>
-        <p class="large-9 small-12 small-centered columns center padding-top-1 text-dark-blue">
+        <div class="row center padding-top-1 padding-bottom-1">
+          <img src="/img/work/hawkhvac/work-hawkhvac.png" alt="">
+        </div>
+        <p class="large-9 small-12 small-centered columns text-dark-blue padding-top-1">
           <a href="http://www.hawkhvac.com" target="_blank" class="text-blue-green">Hawk Mechanical</a>
           is a family-owned mechanical contractor based in Nashville, TN.
           Despite being in business for over decade, the company had no web
@@ -20,11 +23,6 @@
           <a href="http://www.hawkhvac.com" target="_blank" class="radius button bg-aqua button-xl">
             <span>View Live Site</span>
           </a>
-        </div>
-      </div>
-      <div class="bg-white">
-        <div class="row center padding-top-5 padding-bottom-5">
-          <img src="/img/work/hawkhvac/work-hawkhvac.png" alt="">
         </div>
       </div>
     </div>

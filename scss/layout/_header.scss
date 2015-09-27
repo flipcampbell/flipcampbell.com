@@ -54,21 +54,15 @@
   background: url("/img/flip-campbell-logo.svg") no-repeat center center;
   background-size: cover;
   @include rem-fallback(width, 18);
-  // width: 222px;
   @include rem-fallback(height, 6.75);
-  // height: 184px;
   @include rem-fallback(margin-top, -1.375);
   @include rem-fallback(margin-left, -5);
 }
 
 .logo-image-small {
   @extend .logo-image-big;
-  // content: "";
-  // background: url("/img/flip-campbell-logo.svg") no-repeat center center;
-  // width: 56px;
   @include rem-fallback(width, 10);
   @include rem-fallback(height, 10);
-  // height: 46px;
   @include rem-fallback(margin-top, -3.25);
   @include rem-fallback(margin-left, -2.5);
 }
@@ -97,13 +91,8 @@
 		height: 35px;
 	}
   #logo-image {
-    // content: "";
-    // background: url("/img/flip-campbell-logo-small.png");
     @include rem-fallback(width, 7.8125);
-    // width: 56px;
     @include rem-fallback(height, 3.4375);
-
-    // height: 46px;
   }
 }
 //
