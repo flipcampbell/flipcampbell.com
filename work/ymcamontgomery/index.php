@@ -8,7 +8,7 @@
         <h4 class="small-12 small-centered columns center padding-top-1 text-dark-blue italicized">
           HTML5, LESS, WordPress
         </h4>
-        <div class="row center padding-top-1 padding-bottom-1">
+        <div class="center padding-top-1 padding-bottom-1">
           <img src="/img/work/ymcamontgomery/work-ymca.png" alt="">
         </div>
         <p class="large-9 small-12 small-centered columns text-dark-blue padding-top-1">
